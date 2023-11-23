@@ -1,0 +1,248 @@
+<!DOCTYPE html >
+<html lang="en"> 
+    <head> 
+        <title> Web responsiveness</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../prettify.jpg">
+    </head>
+<body>
+
+<header> chania</header>
+<div>
+<div class="kay">
+<button> the flight </button>
+<button> the city</button>
+<button> the island</button>
+<button> the food</button>
+</div>
+
+<div id="u">
+<h1> the city</h1>
+<p> Chania is the capital region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+</div>
+
+<div id="r">
+<h2> what?</h2>
+<p> Chania is a city on the island of Crete.</p>
+<h2> where?</h2>
+<p> Crete is a Greek island in the Mediterranean Sea </p>
+<h2> how?</h2>
+<p> You can reach Chania airport from all over Europe</p>
+
+</div>
+
+</div>
+<footer> Resize the browser window to see how the content respond to the resizing.</footer>
+</body>
+
+
+<style>
+header{
+    background-color: rgb(185, 66, 185);
+    color: #fff;
+    padding: 25px;
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1020) {
+    header{
+        font-size: smaller;
+        width: 50%;
+    }
+    
+}
+@media (min-width: 1024) {
+    
+    header{
+    background-color: rgb(185, 66, 185);
+    color: #fff;
+    padding: 25px;
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+}
+button{
+    background-color: rgb(53, 187, 231);
+    width: 190px;
+    color: #fff;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 5px;
+    display: inline;
+    border: none;
+    text-align: left;
+
+}
+
+button:hover{
+    background-color: rgb(32, 143, 180);
+}
+
+@media (max-width: 1020) {
+    button{
+        width: 100px;
+        padding: 5px;
+        display: inline;
+    }
+    
+}
+
+@media (min-width: 1024) {
+    button{
+        width: 190px;
+        padding: 10px;
+        display: inline;
+    }
+    
+}
+h1{
+    color: #000;
+    text-align: center;
+    font-family: serif;
+    margin: 10px;
+    text-transform: capitalize;
+
+}
+@media (max-width: 1020) {
+    h1{
+        font-size: medium;
+        
+        
+    }
+    
+}
+
+@media (min-width: 1024) {
+    h1{
+        font-size: larger;
+    }
+    
+}
+p{
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+   
+}
+
+@media (max-width: 1020) {
+    p{
+        font-size: smaller;
+    }
+    
+}
+
+@media (min-width: 1024) {
+    p{
+        font-size: larger;
+    }
+    
+}
+#r{
+    width: 250px;
+    padding: 25px;
+    margin: 10px;
+    background-color:  rgb(53, 187, 231) ;
+    color: white;
+    text-align: center;
+    float: right;
+}
+
+@media (max-width: 10240) {
+    #r{
+        width: 180px;
+        padding: 12.5px;
+        
+    }
+    
+}
+@media (min-width: 1024) {
+    #r{
+        width: 300px;
+        padding: 25px;
+        
+    }
+    
+}
+h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+
+}
+@media (max-width: 1020) {
+    h2{
+    font-size: smaller;
+}
+
+}
+@media (min-width: 1024) {
+    h2{
+    font-size: larger;
+}
+
+}
+
+footer{
+    background-color: rgb(11, 176, 231) ;
+    font-size:small;
+    padding: 30px;
+    text-align: center;
+    clear: both;
+    color: #fff;
+}
+
+@media (max-width: 1020) {
+    footer{
+    font-size: small;
+    padding: 15px;
+}
+
+}
+@media (min-width: 1024) {
+    footer{
+    font-size: larger;
+    padding: 30px;
+}
+
+}
+#u{
+   
+    text-align: center;
+    background-color: #fff;
+    margin-top: 30px;
+    width: 40%;
+    
+
+   
+}
+
+@media (max-width: 1020) {
+    #u{
+    font-size: smaller;
+   display: inline-block;
+}
+
+}
+
+@media (min-width: 1024) {  
+    #u{
+    font-size: larger;
+   display: inline-block;
+}
+
+}
+.kay{
+    height: 60%;
+    width: 190px ;
+    margin: 10px;
+}
+
+
+</style>
+</html>
+<!-- -->
